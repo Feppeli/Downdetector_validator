@@ -11,6 +11,6 @@
         {"nome": "Caixa Econômica Federal", "url": "https://www.caixa.gov.br"},
         {"nome": "Santander", "url": "https://www.santander.com.br"},
         {"nome": "Nubank", "url": "https://nubank.com.br"},
-        {"nome": "Banco Inter", "url": "https://bancointer.com.br"},
+        {"nome": "Banco Inter", "url": "https://bancointer.com.br"}
     ]
 }
