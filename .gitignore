@@ -1,4 +1,12 @@
-venv
-./logs/logs.log
+# Ambientes virtuais
+venv/
+
+# Arquivos de log
+logs/
+*.log
+
+# Variáveis de ambiente
 .env
-./servicespack
+
+# Pastas ou pacotes específicos
+servicespack/
