@@ -14,6 +14,7 @@
         {"nome": "Nubank", "url": "https://nubank.com.br"},
         {"nome": "Banco Inter", "url": "https://bancointer.com.br"},
 
-        {"nome": "Software Express / SiTef (Site Institucional)", "url": "https://www.softwareexpress.com.br"}
+        {"nome": "Software Express / SiTef (Site Institucional)", "url": "https://www.softwareexpress.com.br"},
+        {"nome": "Software Express / SiTef (Site Institucional) - Teste Erro", "url": "https://www.softwareexp555ress.com.br"}
     ]
 }
