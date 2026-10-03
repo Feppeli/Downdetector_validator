@@ -20,7 +20,7 @@ def send_email(content, message):
     msg = MIMEText(message)
     msg['Subject'] = content
     msg['From'] = SEU_EMAIL
-    msg['To'] = SEU_EMAIL
+    msg['To'] = "douglas.silva@gramadoparks.com"
 
     with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
         server.starttls() # Criptografia TLS

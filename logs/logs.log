@@ -430,3 +430,57 @@
 03-10-2026 15:02:37 - INFO - [32m [200 ok] Software Express / SiTef (Site Institucional): Succes
 03-10-2026 15:02:37 - DEBUG - Starting new HTTPS connection (1): www.softwareexp555ress.com.br:443
 03-10-2026 15:02:37 - CRITICAL - [31mFalha ao conectar: Software Express / SiTef (Site Institucional) - Teste Erro
+03-10-2026 15:06:36 - DEBUG - Starting new HTTPS connection (1): mc.acquaventura.com.br:18090
+03-10-2026 15:06:36 - DEBUG - https://mc.acquaventura.com.br:18090 "GET /(EADEE697-213B-41E4-8806-BFA80E31144B)/retail.svc HTTP/1.1" 200 3247
+03-10-2026 15:06:36 - INFO - [32m [200 ok] API MultiClubes Fatto: Succes
+03-10-2026 15:06:36 - DEBUG - Starting new HTTPS connection (1): s3.sa-east-1.amazonaws.com:443
+03-10-2026 15:06:36 - DEBUG - https://s3.sa-east-1.amazonaws.com:443 "GET / HTTP/1.1" 307 0
+03-10-2026 15:06:36 - DEBUG - Starting new HTTPS connection (1): aws.amazon.com:443
+03-10-2026 15:06:37 - DEBUG - https://aws.amazon.com:443 "GET /s3/ HTTP/1.1" 200 None
+03-10-2026 15:06:37 - INFO - [32m [200 ok] AWS (S3-São Paulo): Succes
+03-10-2026 15:06:37 - DEBUG - Starting new HTTPS connection (1): ec2.sa-east-1.amazonaws.com:443
+03-10-2026 15:06:37 - DEBUG - https://ec2.sa-east-1.amazonaws.com:443 "GET / HTTP/1.1" 301 0
+03-10-2026 15:06:37 - DEBUG - Starting new HTTPS connection (1): aws.amazon.com:443
+03-10-2026 15:06:37 - DEBUG - https://aws.amazon.com:443 "GET /ec2 HTTP/1.1" 301 0
+03-10-2026 15:06:38 - DEBUG - https://aws.amazon.com:443 "GET /ec2/ HTTP/1.1" 200 None
+03-10-2026 15:06:38 - INFO - [32m [200 ok] AWS (EC2-São Paulo): Succes
+03-10-2026 15:06:38 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+03-10-2026 15:06:38 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+03-10-2026 15:06:38 - INFO - [32m [200 ok] Google: Succes
+03-10-2026 15:06:38 - DEBUG - Starting new HTTPS connection (1): www.bcb.gov.br:443
+03-10-2026 15:06:38 - DEBUG - https://www.bcb.gov.br:443 "GET / HTTP/1.1" 200 2871
+03-10-2026 15:06:38 - INFO - [32m [200 ok] BCB: Succes
+03-10-2026 15:06:38 - DEBUG - Starting new HTTPS connection (1): www.bb.com.br:443
+03-10-2026 15:06:39 - DEBUG - https://www.bb.com.br:443 "GET / HTTP/1.1" 200 None
+03-10-2026 15:06:39 - INFO - [32m [200 ok] Banco do Brasil: Succes
+03-10-2026 15:06:39 - DEBUG - Starting new HTTPS connection (1): www.itau.com.br:443
+03-10-2026 15:06:39 - DEBUG - https://www.itau.com.br:443 "GET / HTTP/1.1" 200 23032
+03-10-2026 15:06:39 - INFO - [32m [200 ok] Itaú: Succes
+03-10-2026 15:06:39 - DEBUG - Starting new HTTPS connection (1): www.bradesco.com.br:443
+03-10-2026 15:06:39 - DEBUG - https://www.bradesco.com.br:443 "GET / HTTP/1.1" 301 0
+03-10-2026 15:06:39 - DEBUG - Starting new HTTPS connection (1): banco.bradesco:443
+03-10-2026 15:06:40 - DEBUG - https://banco.bradesco:443 "GET / HTTP/1.1" 200 3452
+03-10-2026 15:06:40 - INFO - [32m [200 ok] Bradesco: Succes
+03-10-2026 15:06:40 - DEBUG - Starting new HTTPS connection (1): www.caixa.gov.br:443
+03-10-2026 15:06:40 - DEBUG - https://www.caixa.gov.br:443 "GET / HTTP/1.1" 302 None
+03-10-2026 15:06:40 - DEBUG - https://www.caixa.gov.br:443 "GET / HTTP/1.1" 302 170
+03-10-2026 15:06:40 - DEBUG - Starting new HTTP connection (1): www.caixa.gov.br:80
+03-10-2026 15:06:41 - DEBUG - http://www.caixa.gov.br:80 "GET /Paginas/home-caixa.aspx HTTP/1.1" 301 162
+03-10-2026 15:06:41 - DEBUG - https://www.caixa.gov.br:443 "GET /Paginas/home-caixa.aspx HTTP/1.1" 200 None
+03-10-2026 15:06:41 - INFO - [32m [200 ok] Caixa Econômica Federal: Succes
+03-10-2026 15:06:41 - DEBUG - Starting new HTTPS connection (1): www.santander.com.br:443
+03-10-2026 15:06:41 - DEBUG - https://www.santander.com.br:443 "GET / HTTP/1.1" 200 20584
+03-10-2026 15:06:41 - INFO - [32m [200 ok] Santander: Succes
+03-10-2026 15:06:41 - DEBUG - Starting new HTTPS connection (1): nubank.com.br:443
+03-10-2026 15:06:42 - DEBUG - https://nubank.com.br:443 "GET / HTTP/1.1" 200 None
+03-10-2026 15:06:42 - INFO - [32m [200 ok] Nubank: Succes
+03-10-2026 15:06:42 - DEBUG - Starting new HTTPS connection (1): bancointer.com.br:443
+03-10-2026 15:06:42 - DEBUG - https://bancointer.com.br:443 "GET / HTTP/1.1" 301 0
+03-10-2026 15:06:42 - DEBUG - Starting new HTTPS connection (1): inter.co:443
+03-10-2026 15:06:42 - DEBUG - https://inter.co:443 "GET / HTTP/1.1" 200 None
+03-10-2026 15:06:42 - INFO - [32m [200 ok] Banco Inter: Succes
+03-10-2026 15:06:42 - DEBUG - Starting new HTTPS connection (1): www.softwareexpress.com.br:443
+03-10-2026 15:06:43 - DEBUG - https://www.softwareexpress.com.br:443 "GET / HTTP/1.1" 200 90326
+03-10-2026 15:06:43 - INFO - [32m [200 ok] Software Express / SiTef (Site Institucional): Succes
+03-10-2026 15:06:43 - DEBUG - Starting new HTTPS connection (1): www.softwareexp555ress.com.br:443
+03-10-2026 15:06:43 - CRITICAL - [31mFalha ao conectar: Software Express / SiTef (Site Institucional) - Teste Erro
