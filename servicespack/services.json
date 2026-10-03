@@ -1,6 +1,5 @@
 {
     "services" : [
-        {"nome": "API MultiClubes Fatto", "url": "https://mc.acquaventura.com.br:18090/(EADEE697-213B-41E4-8806-BFA80E31144B)/retail.svc"},
         {"nome": "AWS (S3-São Paulo)", "url": "https://s3.sa-east-1.amazonaws.com"},
         {"nome": "AWS (EC2-São Paulo)", "url": "https://ec2.sa-east-1.amazonaws.com"},
         {"nome": "Google", "url": "https://www.google.com"},
@@ -13,8 +12,5 @@
         {"nome": "Santander", "url": "https://www.santander.com.br"},
         {"nome": "Nubank", "url": "https://nubank.com.br"},
         {"nome": "Banco Inter", "url": "https://bancointer.com.br"},
-
-        {"nome": "Software Express / SiTef (Site Institucional)", "url": "https://www.softwareexpress.com.br"},
-        {"nome": "Software Express / SiTef (Site Institucional) - Teste Erro", "url": "https://www.softwareexp555ress.com.br"}
     ]
 }
