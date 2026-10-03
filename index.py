@@ -1,7 +1,8 @@
 import requests
-from colorama import Fore, Style, init
+from colorama import Fore, init
 import json
 import logging
+import time
 
 init(autoreset=True)
 
@@ -25,6 +26,7 @@ headers = {
     "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 
+
 while True:
     for i in SERVICOS:
         try:
@@ -44,3 +46,4 @@ while True:
         except requests.exceptions.RequestException as e:
             print(f"{Fore.RED}Falha ao conectar: {i["nome"]}")
             logging.critical(f'{Fore.RED}Falha ao conectar: {i["nome"]}')
+    time.sleep(5 * 60) # O código vai congelar por 5 minutos até realizar o ping novamente
